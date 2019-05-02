@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "noImplicitAny": false,
+      "removeComments": true,
+      "target": "es5",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "jsx": "react",
+      "moduleResolution": "node",
+      "outDir": "dist/",
+      "rootDir": "src",
+      "declaration": true,
+      "lib": ["es6"]
+  },
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js", "dist", "App.tsx", "__tests__"]
+}
